@@ -1,0 +1,39 @@
+.article {
+  grid-area: arti;
+}
+
+.publis {
+  display: flex;
+  gap: 20px;
+  margin: 10px auto;
+  padding: 10px 0;
+  border-bottom: 2px solid #888;
+}
+
+.info-header {
+  height: 180px;
+  overflow: hidden;
+}
+
+.info-header > img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.breadcumb-info {
+  margin: 10px 0;
+}
+
+.breadcumb-info > span {
+  text-transform: uppercase;
+  color: var(--blue);
+  font-size: 0.6rem;
+}
+
+.information-body {
+  color: #222;
+}
+
+.information-body > p {
+  margin: 10px 0;
+}

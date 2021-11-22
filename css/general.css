@@ -1,0 +1,35 @@
+.container {
+  overflow: hidden;
+  display: grid;
+  gap: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.dark-blue {
+  color: var(--blue);
+}
+
+.header,
+.main,
+.article,
+.footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 100%;
+}

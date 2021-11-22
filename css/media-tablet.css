@@ -1,0 +1,18 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "head"
+      "navi"
+      "main"
+      "arti"
+      "foot"
+      ;
+  }
+  .main {
+    grid-template-columns: 1fr;
+  }
+  .publis {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  grid-area: head;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.trello-logo {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.btn-language {
+  padding: 20px 0;
+}
+
+.btn-boards {
+  padding: 10px;
+  border: 1px solid var(--btn);
+  color: var(--btn);
+  border-radius: 2px;
+}

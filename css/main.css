@@ -1,0 +1,44 @@
+.main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+/* section */
+.home-article {
+  width: 80%;
+}
+
+.breadcumb {
+  margin: 10px 0;
+}
+
+.breadcumb > span {
+  text-transform: uppercase;
+  color: var(--blue);
+}
+
+.article-body {
+  color: #222;
+}
+
+.article-body > p {
+  margin: 10px 0;
+}
+
+/* aside */
+.lecture {
+  padding: 10px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.lecture > p {
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+}
+
+.lecture > a {
+  color: #222;
+}
